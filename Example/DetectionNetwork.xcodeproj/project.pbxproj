@@ -41,7 +41,7 @@
 		1D6E0013E321E452D42DEA3F /* Pods-DetectionNetwork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DetectionNetwork_Example.release.xcconfig"; path = "Target Support Files/Pods-DetectionNetwork_Example/Pods-DetectionNetwork_Example.release.xcconfig"; sourceTree = "<group>"; };
 		289A8ECC32DAC180E83F8290 /* Pods_DetectionNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DetectionNetwork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BE2C32A384BC2596B9C2E5F /* Pods_DetectionNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DetectionNetwork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FFBF3CAEB18C16214187A44 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4FFBF3CAEB18C16214187A44 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DetectionNetwork_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DetectionNetwork_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,8 +65,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3B0588C3B1F7546413352AE /* Pods-DetectionNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DetectionNetwork_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DetectionNetwork_Tests/Pods-DetectionNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D3218CED4658F0409E2218CE /* Pods-DetectionNetwork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DetectionNetwork_Example.debug.xcconfig"; path = "Target Support Files/Pods-DetectionNetwork_Example/Pods-DetectionNetwork_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D41BB20A0AC2AF2B8DAA8D8E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E33719F1BDC4DFEC6E31568C /* DetectionNetwork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DetectionNetwork.podspec; path = ../DetectionNetwork.podspec; sourceTree = "<group>"; };
+		D41BB20A0AC2AF2B8DAA8D8E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E33719F1BDC4DFEC6E31568C /* DetectionNetwork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DetectionNetwork.podspec; path = ../DetectionNetwork.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				A3B0588C3B1F7546413352AE /* Pods-DetectionNetwork_Tests.debug.xcconfig */,
 				0E27CF7257236CD0A82D777B /* Pods-DetectionNetwork_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

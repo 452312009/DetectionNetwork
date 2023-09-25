@@ -1,0 +1,6 @@
+framework module DetectionNetwork {
+  umbrella header "DetectionNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}

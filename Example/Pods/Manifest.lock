@@ -1,0 +1,16 @@
+PODS:
+  - DetectionNetwork (0.1.0)
+
+DEPENDENCIES:
+  - DetectionNetwork (from `../`)
+
+EXTERNAL SOURCES:
+  DetectionNetwork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DetectionNetwork: c38357577b317f346af3a3dce5981e4bc59426f3
+
+PODFILE CHECKSUM: c8cb53c3d038f6debea391b84f8da7dbaf007713
+
+COCOAPODS: 1.12.1

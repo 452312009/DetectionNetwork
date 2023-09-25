@@ -1,0 +1,22 @@
+{
+  "name": "DetectionNetwork",
+  "version": "0.1.0",
+  "summary": "A short description of DetectionNetwork.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tianwen/DetectionNetwork",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tianwen": "452312009@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/tianwen/DetectionNetwork.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "DetectionNetwork/Classes/**/*"
+}

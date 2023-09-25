@@ -1,0 +1,6 @@
+framework module Pods_DetectionNetwork_Tests {
+  umbrella header "Pods-DetectionNetwork_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
